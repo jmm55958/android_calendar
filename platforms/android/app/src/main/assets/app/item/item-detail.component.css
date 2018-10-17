@@ -1,0 +1,27 @@
+.document{
+    background-color: #BA0C2F;
+}
+.headerSection{
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    border-bottom: 5%;
+    border-bottom-color: purple;
+}
+.header{
+    color: white;
+    font-size: 30;
+    margin-left: 10%;
+    
+}
+.section{
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.uppper{
+    
+}
+.lower{
+    margin: 5%;
+    margin-left: 10%;
+}

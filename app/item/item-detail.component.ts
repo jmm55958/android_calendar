@@ -5,7 +5,7 @@ import { ActivatedRoute } from "@angular/router";
 import { Item } from "./item";
 import { ItemService } from "./item.service";
 
-import { Button } from "tns-core-modules/ui/button";
+
 
 @Component({
     selector: "ns-details",

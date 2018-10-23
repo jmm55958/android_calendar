@@ -14,7 +14,7 @@ const routes: Routes = [
     { path: "months", component: MonthsComponent },
 
     //items
-    { path: "months/:id", component: ItemsComponent },
+    { path: "months/:month", component: ItemsComponent },
     { path: "item/:id", component: ItemDetailComponent },
     
 ];

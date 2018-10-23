@@ -20,5 +20,9 @@ export class ItemsComponent implements OnInit {
      
         const month = +this.route.snapshot.params["month"];
         this.items = this.itemService.getItems(month);
+       
+        // console.log("The month id is: "+month);
+        // console.log(this.items);
+
     }
 }

@@ -5,8 +5,37 @@ import { Item } from "./item";
 @Injectable()
 export class ItemService {
    
+    private jan = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private feb = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private mar = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private apr = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private may = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private jun = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
+    private jul = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
+    );
     private aug = new Array<Item>(
         { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
     );
     
     private sept = new Array<Item>(
@@ -29,15 +58,25 @@ export class ItemService {
     );
     private oct = new Array<Item>(
         { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
     );
     private nov = new Array<Item>(
         { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
     );
     private dec = new Array<Item>(
         { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+        { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
     );
 
     private months = [
+        this.jan,
+        this.feb,
+        this.mar,
+        this.apr,
+        this.may,
+        this.jun,
+        this.jul,
         this.aug,
         this.sept,
         this.oct,

@@ -1,0 +1,22 @@
+.div1{
+    background-color: blue;
+    text-align: center;
+}
+.div2{
+    background-color:green;
+    text-align: center;
+}
+.div3{
+    background-color: red;
+   
+}
+.header{
+    color: white;
+  
+    font-size:30;
+    padding-left: 15;
+}
+.page{
+    text-align: center;
+    color: black;
+}

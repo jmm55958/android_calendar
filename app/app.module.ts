@@ -9,6 +9,7 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 
 import { MonthsComponent} from "./month/months.component";
 import { MonthService} from "./month/month.service";
+import { MenuComponent } from "./menu/menu.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -28,7 +29,8 @@ import { MonthService} from "./month/month.service";
         AppComponent,
         ItemsComponent,
         ItemDetailComponent,
-        MonthsComponent
+        MonthsComponent,
+        MenuComponent
     ],
     providers: [
         ItemService,

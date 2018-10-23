@@ -28,6 +28,6 @@ export class ItemDetailComponent implements OnInit {
 
         console.log("The month id is: "+month);
         console.log("The item id is: "+id);
-        //console.log(this.item);
+        console.log(this.item);
     }
 }

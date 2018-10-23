@@ -4,7 +4,12 @@ import { Item } from "./item";
 
 @Injectable()
 export class ItemService {
-    private items = new Array<Item>(
+   
+    private aug = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+    );
+    
+    private sept = new Array<Item>(
         { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
         { id: 3, name: "Labor Day", type: "Holiday", date: "09/03" },
         { id: 4, name: "National Wildlife Day", type: "Event", date: "09/04" },
@@ -22,12 +27,29 @@ export class ItemService {
         { id: 18, name: "Street Paint Competition", type: "Event", date: "09/28" },
         { id: 19, name: "Georgia vs Tennessee", type: "Game", date: "09/29" },
     );
+    private oct = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+    );
+    private nov = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+    );
+    private dec = new Array<Item>(
+        { id: 1, name: "Georgia vs Austin Peay", type: "Game", date: "09/01" },
+    );
 
-    getItems(): Item[] {
-        return this.items;
+    private months = [
+        this.aug,
+        this.sept,
+        this.oct,
+        this.nov,
+        this.dec
+    ];
+
+    getItems(id: number): Item[] {
+        return this.months[id];
     }
 
-    getItem(id: number): Item {
-        return this.items.filter(item => item.id === id)[0];
+    getItem(month:number, id: number): Item {
+        return this.months[month].filter(item => item.id === id)[0];
     }
 }

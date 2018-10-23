@@ -7,14 +7,16 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 import {MonthsComponent} from "./month/months.component"; 
 
 const routes: Routes = [
+    // root
     { path: "", redirectTo: "/months", pathMatch: "full" },
     
-    
-    { path: "items", component: ItemsComponent },
-    { path: "item/:id", component: ItemDetailComponent },
-
-
+    //months
     { path: "months", component: MonthsComponent },
+
+    //items
+    { path: "months/:id", component: ItemsComponent },
+    { path: "item/:id", component: ItemDetailComponent },
+    
 ];
 
 @NgModule({

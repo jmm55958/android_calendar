@@ -5,7 +5,7 @@ import { ActivatedRoute } from "@angular/router";
 import { Item } from "./item";
 import { ItemService } from "./item.service";
 
-import { Button } from "tns-core-modules/ui/button";
+
 
 @Component({
     selector: "ns-details",
@@ -22,7 +22,12 @@ export class ItemDetailComponent implements OnInit {
     ) { }
 
     ngOnInit(): void {
+        const month = +this.route.snapshot.params["month"];
         const id = +this.route.snapshot.params["id"];
-        this.item = this.itemService.getItem(id);
+        this.item = this.itemService.getItem(month, id);
+
+        console.log("The month id is: "+month);
+        console.log("The item id is: "+id);
+        console.log(this.item);
     }
 }

@@ -1,0 +1,24 @@
+.div1{
+    background-image: url("https://i.imgur.com/tq1Nhvv.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div2{
+    background-image: url("https://i.imgur.com/YK4ZevJ.png");
+    background-size: 100% 100%;
+}       
+.div3{  
+    background-image: url("https://i.imgur.com/6E546H1.png");
+    background-size: 100% 100%;
+}
+.header{
+    color: white;
+    font-family: "Impact";
+    font-size:40;
+    padding-left: 15;
+}
+.page{
+    text-align: center;
+    color: black;
+}

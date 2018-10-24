@@ -7,6 +7,13 @@ import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 
+import { MonthsComponent} from "./month/months.component";
+import { MonthService} from "./month/month.service";
+import { MenuComponent } from "./menu/menu.component";
+
+import { SwitchComponent} from "./login/switch.component";
+import { RegisterComponent } from "./login/register.component";
+
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
@@ -24,10 +31,15 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     declarations: [
         AppComponent,
         ItemsComponent,
-        ItemDetailComponent
+        ItemDetailComponent,
+        MonthsComponent,
+        MenuComponent,
+        SwitchComponent,
+        RegisterComponent,
     ],
     providers: [
-        ItemService
+        ItemService,
+        MonthService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

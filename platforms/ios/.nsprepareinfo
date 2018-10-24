@@ -1,5 +1,5 @@
 {
-	"time": "Tue Oct 23 2018 22:37:32 GMT-0400 (EDT)",
+	"time": "Wed Oct 24 2018 09:53:03 GMT-0400 (EDT)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
@@ -32,7 +32,7 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/register.component.html": "db3492b424e7c90301bb4b852dcb3c1dc2c2e06c",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/register.component.js": "4933925b02da7644652e157a042e51495bdf0a3b",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/register.component.ts": "c8557c50fc92ee1c0f04a92553d53cd59f43d567",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/switch.component.css": "4b4b7fa866ee380f64627edd1a666cb59f53e302",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/switch.component.css": "e4029cd0d054c26c3430a0797be0b46d08a35452",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/switch.component.html": "4b40a132bd7dadba07bcacd2ea3c0bb9bb7b68e4",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/switch.component.js": "e3c30e183c5162c5235b994adb58d9a83e1b1a1b",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/switch.component.ts": "6124e3a342d03a0c81c54a12aefb90ab35793ccb",
@@ -40,7 +40,7 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/main.aot.ts": "ef9598ed4f3baa376c80a9ddb552f6814344d26a",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/main.js": "8cf31d0af2ff0f488b3ac56bfb9cd9a7a4cd3f1b",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/main.ts": "fb099974e7c219d0136362ea16211b76f6fe28e0",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/menu.component.css": "400f954278dee5282013e4466cfb1ff6408b5c77",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/menu.component.css": "edeec6b5e4e5b0cc7f1f1a22a063afe304d67d2d",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/menu.component.html": "5f66f7d1550c8732f6885ed78243723630b5644a",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/menu.component.js": "096cb54d1b99b364de5bc2469563df88efb0186a",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/menu.component.ts": "421e79e72a222b4b5443be65c447ce20089649c2",
@@ -48,9 +48,13 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/month.service.js": "e46448442f9d9b6be681789d0fdeb05616ebe663",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/month.service.ts": "d3b2bfac1779e39ddbcc28dd1f56cb332f31c575",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/month.ts": "2485f4cf68ca9035206f6b27a2a41aa2a04bc421",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/months.component.html": "c885689b754d628aa5afaa7263d84432f7f01048",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/months.component.html": "7ddb9440e5111d8fe57e1c1fdb0f0719e076ff4a",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/months.component.js": "36fe722bd358950a76e72bced38facd54a9ce590",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/month/months.component.ts": "9d351e81c677dd0cb9acea003bf545b335340818",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/package.json": "62db8f086c6c89608370f1d52d8bcf671ce139db"
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/package.json": "62db8f086c6c89608370f1d52d8bcf671ce139db",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/login/imgs/logo.png": "815c46cfb42238b08d350d3208c7ea2e12d77c76",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/imgs/android2.png": "21ac4f241035d975cccd6a4a7961ba49d7db3187",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/imgs/android3.png": "9d56b799ce8513e7d611920a9a8ff68e22b29501",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/menu/imgs/android1.png": "3cb5ba78aaf16488b05b5dc5756a80671fa433d6"
 	}
 }

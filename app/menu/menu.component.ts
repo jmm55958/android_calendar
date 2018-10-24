@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Page} from "ui/page";
 
 @Component({
     selector: "ns-menu",
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class MenuComponent implements OnInit {
-    constructor() { }
+    constructor(page: Page) { 
+        page.actionBarHidden = true;
+    }
 
     ngOnInit() { }
 }

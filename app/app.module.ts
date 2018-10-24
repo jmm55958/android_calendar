@@ -12,6 +12,7 @@ import { MonthService} from "./month/month.service";
 import { MenuComponent } from "./menu/menu.component";
 
 import { SwitchComponent} from "./login/switch.component";
+import { RegisterComponent } from "./login/register.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -34,6 +35,7 @@ import { SwitchComponent} from "./login/switch.component";
         MonthsComponent,
         MenuComponent,
         SwitchComponent,
+        RegisterComponent,
     ],
     providers: [
         ItemService,

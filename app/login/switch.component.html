@@ -1,9 +1,34 @@
 <!-- switch to either login, or to proceed as a guest -->
 
-<FlexboxLayout className="page">
+<FlexboxLayout flexDirection="column" className="page">
 
-    <FlexboxLayout className="button-div">
-         <Label text="test"></Label>   
+    <FlexboxLayout className="logo" height="30%">
+
+    </FlexboxLayout>
+
+    <FlexboxLayout class="form">
+    
+        <StackLayout className="fields" height="60%" class="input-field">
+            <TextField hint="Username" class="input"></TextField>
+            <StackLayout class="hr-light"></StackLayout>
+            <TextField hint="Password" class="input" type="password" style="padding-top:20%;"></TextField>
+            <StackLayout class="hr-light"></StackLayout>
+
+            <Button text="Log In" class="btn btn-primary" [nsRouterLink]="['/menu']" style="background-color: red; margin-top:10%;"></Button>
+
+            <FlexboxLayout className="button-div" flexDirection="row">
+                <Button width="45%" text="Register" class="btn btn-primary" [nsRouterLink]="['/register']" style="background-color: black; margin-top:5%;"></Button>
+                <Button width="45%" text="Guest" class="btn btn-primary" [nsRouterLink]="['/menu']" style="background-color: black; margin-top:5%;"></Button>
+            </FlexboxLayout>
+
+        </StackLayout>
+
+    <!-- closing the form -->
+    </FlexboxLayout>
+    
+
+    <FlexboxLayout className="footer" height="10%">
+        <Label className="copy" text="©Android Team @ UGA"></Label>
     </FlexboxLayout>
 
 

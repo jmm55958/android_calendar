@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'ns-switch',
+    selector: 'ns-register',
     moduleId: module.id,
-    templateUrl: "./switch.component.html",
+    templateUrl: 'register.component.html',
     styleUrls: ["./switch.component.css"],
+
 })
 
-export class SwitchComponent implements OnInit {
+export class RegisterComponent implements OnInit {
     constructor() { }
 
     ngOnInit() { }

@@ -1,5 +1,5 @@
 {
-	"time": "Mon Nov 12 2018 22:14:37 GMT-0500 (EST)",
+	"time": "Mon Nov 12 2018 22:30:19 GMT-0500 (EST)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
@@ -14,9 +14,9 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.component.js": "1778997a76e01e8fb311b3e386002d05315129cf",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.component.ts": "9f7db4bb3afac411dd7abc8d93e1138eadc263b1",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.css": "6396211fb983c711f177cf78ce160529b472205a",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.module.js": "836d2f7acc2a6c1d70b032022dad99219ffb9172",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.module.js": "2cfbcc2edc4c8f6a62be1d8db6dba19eed670d28",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.module.ngfactory.d.ts": "efd772f80676035988b3a2fc2b249d24a9b13f5c",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.module.ts": "c2b8ce380578da68a4dc767355235227579707be",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.module.ts": "7971af2028a44cb0fc3d2f0fcda600b6b1b15539",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.routing.js": "0a223e21a37b9d33caa81703411f42cce8408d9f",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/app.routing.ts": "16320c8a556d5342b6d6efd46e2fafc9a0956003",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/app/item/item-detail.component.css": "a196eed6527600c07d4a353da6c25a515dca56ba",

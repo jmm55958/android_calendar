@@ -1,8 +1,17 @@
 {
+	"nativescript-sqlite": {
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/build.xcconfig": "b36bc043e0db8efa03e97c0e13e0ff609476cf2f",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/module.modulemap": "6c7bd53f95451d702c3ad8172f1e21b481445423",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Headers/sqlitehelper.h": "b94234c5268ef522d7f0e57c7e885a0b9fe99455",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Headers/sqlitewrapper.h": "389bc3c906f08fa76526c0add1c0c5401f82e08c",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Info.plist": "a71ee4c7341d62057713c8de2c947af7ede6414d",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Modules/module.modulemap": "0f7f796c116f7b44cd310f61331aefc883e93a4e",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/sqlitewrapper": "aef0b38e1049d87171b4d2d208160f3e43e40498"
+	},
 	"tns-core-modules": {
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m": "95f2f41d1868f418dd79a418c30a1c2ac85829f6",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2"
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11"
 	},
 	"tns-core-modules-widgets": {
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h": "c7c5788d3ea834d96cf8a137cbf0c4ea28fd7829",
@@ -12,14 +21,5 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Info.plist": "56a84c1b187cd02aa343ffcd6236ab462a1fe1f2",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Modules/module.modulemap": "00d2220e76eb098f1808eb4e9b5c43ad4cadf1da",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/TNSWidgets": "22043b55b6837a2700eed34e29235c8853b01a37"
-	},
-	"nativescript-sqlite": {
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/build.xcconfig": "b36bc043e0db8efa03e97c0e13e0ff609476cf2f",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/module.modulemap": "6c7bd53f95451d702c3ad8172f1e21b481445423",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Headers/sqlitehelper.h": "b94234c5268ef522d7f0e57c7e885a0b9fe99455",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Headers/sqlitewrapper.h": "389bc3c906f08fa76526c0add1c0c5401f82e08c",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Info.plist": "a71ee4c7341d62057713c8de2c947af7ede6414d",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/Modules/module.modulemap": "0f7f796c116f7b44cd310f61331aefc883e93a4e",
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/sqlitewrapper": "aef0b38e1049d87171b4d2d208160f3e43e40498"
 	}
 }

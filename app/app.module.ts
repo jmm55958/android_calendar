@@ -10,6 +10,8 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 import { MonthsComponent} from "./month/months.component";
 import { MonthService} from "./month/month.service";
 import { MenuComponent } from "./menu/menu.component";
+import {MovieComponent} from "./movie/movie.component";
+import { MovieService} from "./movie/movie.service";
 
 import { SwitchComponent} from "./login/switch.component";
 import { RegisterComponent } from "./login/register.component";
@@ -36,10 +38,12 @@ import { RegisterComponent } from "./login/register.component";
         MenuComponent,
         SwitchComponent,
         RegisterComponent,
+        MovieComponent
     ],
     providers: [
         ItemService,
-        MonthService
+        MonthService,
+        MovieService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

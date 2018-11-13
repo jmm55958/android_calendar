@@ -1,5 +1,7 @@
 .document{
     background-color: #BA0C2F;
+    font-family: 'fantasy';
+ 
 }
 .headerSection{
     background-color: rgba(0,0,0,0);
@@ -14,7 +16,7 @@
     
 }
 .section{
-
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(81, 79, 79,.9);
     margin-left: 5%;
     margin-right: 5%;
@@ -22,6 +24,7 @@
     padding: 10%;
     color: white;
     font-size: 18;
+
 
 }
 .uppper{

@@ -20,10 +20,10 @@ export class SwitchComponent implements OnInit {
     }
 
     public login() {
-        console.log('email: '+this.input.email);
-        console.log('password: '+this.input.password);
+        // console.log('email: '+this.input.email);
+        // console.log('password: '+this.input.password);
 
-        if(this.input.email && this.input.password) {
+        if(this.input.email=="josh@test.com" && this.input.password=="password") {
             this.router.navigate(["/menu"]);
         }
     }//login

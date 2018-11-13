@@ -6,22 +6,24 @@
 
     </FlexboxLayout>
 
-    <FlexboxLayout class="form">
+    <FlexboxLayout flexDirection="column" className="fields" class="form">
     
-        <StackLayout className="fields" height="60%" class="input-field">
-            <TextField hint="Username" class="input"></TextField>
+        <StackLayout height="10%" class="input-field">
+            <TextField hint="Email" class="input" keyboardType="email" autocorrect="false" [(ngModel)]="input.email"></TextField>
             <StackLayout class="hr-light"></StackLayout>
-            <TextField hint="Password" class="input" type="password" style="padding-top:20%;"></TextField>
-            <StackLayout class="hr-light"></StackLayout>
-
-            <Button text="Log In" class="btn btn-primary" [nsRouterLink]="['/menu']" style="background-color: red; margin-top:10%;"></Button>
-
-            <FlexboxLayout className="button-div" flexDirection="row">
-                <Button width="45%" text="Register" class="btn btn-primary" [nsRouterLink]="['/register']" style="background-color: black; margin-top:5%;"></Button>
-                <Button width="45%" text="Guest" class="btn btn-primary" [nsRouterLink]="['/menu']" style="background-color: black; margin-top:5%;"></Button>
-            </FlexboxLayout>
-
         </StackLayout>
+
+        <StackLayout height="15%" style="padding-bottom: 5%" class="input-field" >
+            <TextField hint="Password" class="input" type="password" style="padding-top:20%;" autocorrect="false" secure="true" [(ngModel)]="input.password"></TextField>
+            <StackLayout class="hr-light"></StackLayout>
+        </StackLayout>
+       
+        <Button text="Log In" class="btn btn-primary" (tap)="login()" style="background-color: red; margin-top:10%;"></Button>
+      
+        <FlexboxLayout className="button-div" flexDirection="row">
+            <Button width="45%" text="Register" class="btn btn-primary" [nsRouterLink]="['/register']" style="background-color: black; margin-top:5%;"></Button>
+            <Button width="45%" text="Guest" class="btn btn-primary" [nsRouterLink]="['/menu']" style="background-color: black; margin-top:5%;"></Button>
+        </FlexboxLayout>
 
     <!-- closing the form -->
     </FlexboxLayout>

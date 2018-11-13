@@ -6,7 +6,8 @@ import { MovieService } from "./movie.service";
 @Component({
     selector: 'ns-movie',
     moduleId: module.id,
-    templateUrl: 'movie.component.html'
+    templateUrl: 'movie.component.html',
+    styleUrls: ["./movie.component.css"]
 })
 
 export class MovieComponent implements OnInit {

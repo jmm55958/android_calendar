@@ -6,8 +6,8 @@
             <ng-template let-movie="item">
                 <FlexboxLayout>
                 <Label [text]="movie.name" 
-                    class="list-group-item" style="margin-bottom: 5%; margin-top:5%; text-align: center;" ></Label>
-                <Label textAlignment="Right" className="date" [text]="movie.date" width="25%"></Label>
+                    class="list-group-item" style="text-align: left;" width="70%" ></Label>
+                <Label textAlignment="Right" style="text-align: center;" [text]="movie.date" width="25%"></Label>
                 </FlexboxLayout>
             </ng-template>
         </ListView>

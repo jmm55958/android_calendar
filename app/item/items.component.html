@@ -25,7 +25,7 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
 -->
 <StackLayout class="page">
     <!-- <Label height="15%" text="September"></Label> -->
-    <ListView [items]="items" class="list-group">
+    <ListView [items]="items" class="list-group" height="100%">
         <ng-template let-item="item">
             <FlexboxLayout>
                 <Label [nsRouterLink]="['/item', item.month,item.id]" [text]="item.name" width="75%"

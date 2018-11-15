@@ -9,8 +9,8 @@
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/nativescript-sqlite/platforms/ios/sqlitewrapper.framework/sqlitewrapper": "aef0b38e1049d87171b4d2d208160f3e43e40498"
 	},
 	"tns-core-modules": {
-		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m": "95f2f41d1868f418dd79a418c30a1c2ac85829f6",
+		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
 		"/Users/joshuamontag/Documents/Repos/android_calendar/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2"
 	},
 	"tns-core-modules-widgets": {

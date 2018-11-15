@@ -6,6 +6,7 @@ import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 import { MonthsComponent} from "./month/months.component"; 
 import { MenuComponent} from "./menu/menu.component";
+import { MovieComponent } from "./movie/movie.component";
 
 import { SwitchComponent } from "./login/switch.component";
 import { RegisterComponent } from "./login/register.component";
@@ -21,8 +22,8 @@ const routes: Routes = [
     // menu
     { path: "menu", component: MenuComponent },
 
-    //months
     { path: "months", component: MonthsComponent },
+    { path: "movies", component: MovieComponent },
 
     //items
     { path: "months/:month", component: ItemsComponent },

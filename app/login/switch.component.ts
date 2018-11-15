@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterExtensions } from "nativescript-angular/router";
 
 @Component({
     selector: 'ns-switch',
@@ -8,7 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class SwitchComponent implements OnInit {
-    constructor() { }
+
+    public input: any;
+
+    public constructor(private router: RouterExtensions) { 
+        this.input = {
+            "email": "",
+            "password": ""
+        }
+    }
+
+    public login() {
+        // console.log('email: '+this.input.email);
+        // console.log('password: '+this.input.password);
+
+        if(this.input.email=="josh@test.com" && this.input.password=="password") {
+            this.router.navigate(["/menu"]);
+        }
+    }//login
 
     ngOnInit() { }
 }

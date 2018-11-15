@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
@@ -10,6 +11,8 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 import { MonthsComponent} from "./month/months.component";
 import { MonthService} from "./month/month.service";
 import { MenuComponent } from "./menu/menu.component";
+import {MovieComponent} from "./movie/movie.component";
+import { MovieService} from "./movie/movie.service";
 
 import { SwitchComponent} from "./login/switch.component";
 import { RegisterComponent } from "./login/register.component";
@@ -26,6 +29,7 @@ import { RegisterComponent } from "./login/register.component";
     ],
     imports: [
         NativeScriptModule,
+        NativeScriptFormsModule,
         AppRoutingModule
     ],
     declarations: [
@@ -36,10 +40,12 @@ import { RegisterComponent } from "./login/register.component";
         MenuComponent,
         SwitchComponent,
         RegisterComponent,
+        MovieComponent
     ],
     providers: [
         ItemService,
-        MonthService
+        MonthService,
+        MovieService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

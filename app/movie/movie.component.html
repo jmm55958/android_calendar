@@ -1,0 +1,16 @@
+<ActionBar title="Movies" class="action-bar">
+    </ActionBar>
+    
+    <StackLayout class="page" >    
+        <ListView [items]="movies" class="list-group" height="100%">
+            <ng-template let-movie="item">
+                <FlexboxLayout>
+                <Label [text]="movie.name" 
+                    class="list-group-item" style="text-align: left;" width="70%" ></Label>
+                <Label textAlignment="Right" style="text-align: center;" [text]="movie.date" width="25%"></Label>
+                </FlexboxLayout>
+            </ng-template>
+        </ListView>
+    
+    </StackLayout>
+    

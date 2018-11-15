@@ -9,7 +9,7 @@ import { ItemService } from "./item.service";
 
 @Component({
     selector: "ns-details",
-    moduleId: module.id,
+    moduleId: module.id,   
     templateUrl: "./item-detail.component.html",
     styleUrls: ["./item-detail.component.css"],
 })
@@ -26,8 +26,8 @@ export class ItemDetailComponent implements OnInit {
         const id = +this.route.snapshot.params["id"];
         this.item = this.itemService.getItem(month, id);
 
-        console.log("The month id is: "+month);
-        console.log("The item id is: "+id);
-        console.log(this.item);
+        // console.log("The month id is: "+month);
+        // console.log("The item id is: "+id);
+        // console.log(this.item);
     }
 }

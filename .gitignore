@@ -1,2 +1,3 @@
 platforms/ios/*
 platforms/android/*
+app/App_Resources/iOS/build.xconfig

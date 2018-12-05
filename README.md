@@ -51,7 +51,7 @@ The HTML file has the first loaded page of the app. This pairs with the CSS file
 
 Each sub component contains its own mini environment. Each component needs to include <br>
 - component.ts file
-- component.html file
+- component.html file - every component's look and feel is defined here. Use web skills!
 - component.css file (optional) 
 - component.service.ts (optional) - I used this as a getter/setter for the component.
 

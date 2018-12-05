@@ -32,7 +32,33 @@ In order to sideload onto an iOS device,
 # Project Setup
 Ignore every javascript file in the repository, typescript overrides the javascript file if they have the same name
 In the VSCode Preferences->settings, in the commonly used section, go to Files:Exclude, add
- - **/*.js
+ - **/*.js <br>
 This will hide all javascript files.
+
+The project structure looks like
+ - App_Resources - this is where individual settings for iOS vs Android go
+ - App angular components (folder)
+ - Main app files
+ - Hooks (IDK what this does, internet tells me its pretty irrelevant)
+ - Node_modules contain all dependencies, don't open or edit, all done through the command line
+ - platforms, compiled code for the iOS/Android app goes here. If changes ever don't go live, delete this whole folder and it will be recompiled
+
+The main app files contain a component, module, html, css, router, and 2 main files.
+I didn't touch the main files. They came bundled with new project command.
+The module is where you declare any other sub components for the app in order to be compiled.
+Routing file handles the routes between components.
+The HTML file has the first loaded page of the app. This pairs with the CSS file.
+
+Each sub component contains its own mini environment. Each component needs to include <br>
+- component.ts file
+- component.html file
+- component.css file (optional) 
+- component.service.ts (optional) - I used this as a getter/setter for the component.
+
+The component.ts file is the compiler for the component. Follow the structure to declare where the html file, css, methods etc. 
+You can use a VSCode extension called "Angular Snippets" to easily create the files for you, then you have to populate them. 
+
+Good Luck.
+
 
 
